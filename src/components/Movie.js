@@ -25,11 +25,11 @@ class Movie extends Component {
       <div key={this.props.movie.key}>
         <span>
           {" "}
-          Movie Title: <strong>{this.props.movie.Title}</strong>{" "}
+          Titulo de la Pelicula <strong>{this.props.movie.Title}</strong>{" "}
         </span>
         <p>
           {" "}
-          Main Actors: <strong>{this.state.actors}</strong>
+          Actores: <strong>{this.state.actors}</strong>
         </p>
         <img
           className="img"
